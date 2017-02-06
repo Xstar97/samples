@@ -1,12 +1,11 @@
 //How to use the MediaUtils.java?
-//1. Add your sound files in the assets directory
-//2. add "private MediaPlayer m;" in any activity or fragment
-//
+//1. Add your sound files in the assets directory or the raw directory
+
 //then when you want to play the specific sound file do this:
-//Activity
-//playSound(MainActivity.this, m, "sound.mp3");
-//fragment
-//playSound(getActivity(), m, "sound.mp3");
+//assets
+//playSound(MainActivity.this, "sound.mp3");
+//raw
+//playSound(getActivity(), R.raw.filename);//exclude extension
 //
 //to stop playing the sound file(if looping was enabled)
 //
@@ -18,41 +17,58 @@ package com.example.app;
 import android.content.*;
 import android.content.res.*;
 import android.media.*;
+import android.widget.*;
 
 public class MediaUtils
 {
+	private static MediaPlayer m;
 
-	public static void playSound(Context context, MediaPlayer m, String name){
+	public static void playSound(Context context, String fileName){
+		playAsset(context, fileName);
+	}
+	public static void playSound(Context context, int fileName){
+		playRaw(context, fileName);
+	}
+
+	private static void playAsset(final Context context, final String assetName){
 
 		try{
 			//if sound is playing stop & release to to play a new sound file
-			stopSound(m);
-
-			//play sound from assets
-			AssetFileDescriptor descriptor = context.getAssets().openFd(name);
-			m.setDataSource(descriptor.getFileDescriptor(), descriptor.getStartOffset(), descriptor.getLength());
-			descriptor.close();
+			stopSound();
+			m = new MediaPlayer();
+			AssetFileDescriptor afd = context.getAssets().openFd(assetName);
+			m.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+			afd.close();
 			m.prepare();
-			
-			//additional stuff you can set
-			//m.setVolume(1f, 1f);
-			//m.setLooping(true);
+			m.start();
+		}
+		catch (Exception e){
+			Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
+		}
+	}
+	
+	private static void playRaw(Context context, int rawName){
 
-			//start playing sound
+		try{
+			//if sound is playing stop & release to to play a new sound file
+			stopSound();
+			m = new MediaPlayer();
+			m = MediaPlayer.create(context, rawName); 
 			m.start();
 
 		}
 		catch (Exception e){
+			Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
 		}
 	}
 
-	public static void stopSound(MediaPlayer m){
+	public static void stopSound(){
 		//if sound is playing stop & release to to play a new sound file
+		if(m != null){
 		if(m.isPlaying()){
 			m.stop();
 			m.release();
-			m = new MediaPlayer();
+			}
 		}
 	}
-	
 }
