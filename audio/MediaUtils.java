@@ -1,8 +1,17 @@
+//How to use the MediaUtils.java?
+//1. Add your sound files in the assets directory
+//2. add "private MediaPlayer m;" in any activity or fragment
+//
+//then when you want to play the specific sound file do this:
+//
+//playSound(m, "sound.mp3");
+//
+//to stop playing the sound file(if looping was enabled)
+//
+//then use this...
+//stopSound(m);
 
 public class MediaUtils {
-
-//add this line in the activity or fragment you want to play the sound.
-//private MediaPlayer m;
 
 public static void playSound(MediaPlayer m,String name){
 try{
