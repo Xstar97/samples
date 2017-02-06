@@ -3,14 +3,12 @@
 
 //then when you want to play the specific sound file do this:
 //assets
-//playSound(MainActivity.this, "sound.mp3");
+//MediaUtils.playSound(MainActivity.this, "sound.mp3");
 //raw
-//playSound(getActivity(), R.raw.filename);//exclude extension
+//MediaUtils.playSound(MainActivity.this, R.raw.filename);//exclude extension
 //
 //to stop playing the sound file(if looping was enabled)
-//
-//then use this...
-//stopSound(m);
+//MediaUtils.stopSound();
 
 package com.example.app;
 
