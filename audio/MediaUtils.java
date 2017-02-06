@@ -41,7 +41,8 @@ public class MediaUtils
 			m.start();
 		}
 		catch (Exception e){
-			Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
+			//Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
+			Log.w("Exception", e);
 		}
 	}
 	
@@ -56,7 +57,8 @@ public class MediaUtils
 
 		}
 		catch (Exception e){
-			Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
+			//Toast.makeText(context, "error: " + e, Toast.LENGTH_LONG).show();
+			Log.w("Exception", e);
 		}
 	}
 
