@@ -3,46 +3,56 @@
 //2. add "private MediaPlayer m;" in any activity or fragment
 //
 //then when you want to play the specific sound file do this:
-//
-//playSound(m, "sound.mp3");
+//Activity
+//playSound(MainActivity.this, m, "sound.mp3");
+//fragment
+//playSound(getActivity(), m, "sound.mp3");
 //
 //to stop playing the sound file(if looping was enabled)
 //
 //then use this...
 //stopSound(m);
 
-public class MediaUtils {
+package com.example.app;
 
-public static void playSound(MediaPlayer m,String name){
-try{
+import android.content.*;
+import android.content.res.*;
+import android.media.*;
 
-//if sound is playing stop & release to to play a new sound file
-stopSound(m);
+public class MediaUtils
+{
 
-//play sound from assets
-AssetFileDescriptor descriptor = getAssets.openFd(name);
-m.setDataSource(descriptor.getFileDescriptor(), descriptor.getStartOffset(), descriptor.getLength());
-descriptor.close();
-m.prepare();
+	public static void playSound(Context context, MediaPlayer m, String name){
 
-//additional stuff you can try
-//m.setVolume(1f, 1f);
-//m.setLooping(true);
+		try{
+			//if sound is playing stop & release to to play a new sound file
+			stopSound(m);
 
-//start playing sound
-m.start();
+			//play sound from assets
+			AssetFileDescriptor descriptor = context.getAssets().openFd(name);
+			m.setDataSource(descriptor.getFileDescriptor(), descriptor.getStartOffset(), descriptor.getLength());
+			descriptor.close();
+			m.prepare();
+			
+			//additional stuff you can set
+			//m.setVolume(1f, 1f);
+			//m.setLooping(true);
 
-}
-catch (Exception e){
-}
-}
+			//start playing sound
+			m.start();
 
-public static void stopSound(MediaPlayer m){
-//if sound is playing stop & release to to play a new sound file
-if(m.isPlaying()){
-m.stop();
-m.release();
-m = new MediaPlayer();
-  }
- }
+		}
+		catch (Exception e){
+		}
+	}
+
+	public static void stopSound(MediaPlayer m){
+		//if sound is playing stop & release to to play a new sound file
+		if(m.isPlaying()){
+			m.stop();
+			m.release();
+			m = new MediaPlayer();
+		}
+	}
+	
 }
