@@ -2,9 +2,8 @@
 An AIDE tutorial on creating a material design navigation drawer with fragments example
 
 #Pre-tutorial needs & to do's list:
-1. An IDE preferably AIDE which you can get it on google play!
-2. Create/use a icon for your app with mipmap folders- the following link will generate the folders & rename the files automatically
-https://romannurik.github.io/AndroidAssetStudio/index.html
+1. An IDE preferably AIDE which you can get it on [google play!](https://play.google.com/store/apps/details?id=com.aide.ui)
+2. Use your own icons or generate launcher icons via [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html)
 
 #AIDE TUTORIAL
 
