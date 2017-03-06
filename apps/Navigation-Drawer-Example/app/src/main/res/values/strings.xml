@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Navigation Drawer Example</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="nav_camera">Camera</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_slideshow">SlideShow</string>
+    <string name="nav_manage">Manage</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+
+    <!-- MainFragment -->
+    <string name="main">Main Fragment</string>
+    <string name="main2">In this tutorial You will only see this screen once!</string>
+
+    <!-- CameraFragment -->
+    <string name="camera">Camera Fragment</string>
+
+    <!-- GalleryFragment -->
+    <string name="gallery">Gallery Fragment</string>
+
+    <!-- SlideShowFragment -->
+    <string name="slideshow">SlideShow Fragment</string>
+
+    <!-- ManageFragment -->
+    <string name="manage">Manage Fragment</string>
+
+    <!-- ShareFragment -->
+    <string name="share">share Fragment</string>
+
+    <!-- SendFragment -->
+    <string name="send">Send Fragment</string>
+
+</resources>
