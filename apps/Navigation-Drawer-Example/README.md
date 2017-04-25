@@ -23,7 +23,9 @@ the first thing we do is delcare the following views:
 then in onCreate we add the following:
 
 initOnCreate(toolbar, drawer, navigationView);
+
 //R.id.blabla compatible
+
 initOnCreateR.id.toolbar,R.id.drawer, R.id.navigatioView);
 
 what does that do?
