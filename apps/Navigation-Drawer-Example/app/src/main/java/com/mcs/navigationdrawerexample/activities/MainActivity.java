@@ -1,54 +1,72 @@
 package com.mcs.navigationdrawerexample.activities;
 
+import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.mcs.navigationdrawerexample.R;
-import com.mcs.navigationdrawerexample.fragments.OnFragmentInteractionListener;
 import com.mcs.navigationdrawerexample.fragments.*;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, OnFragmentInteractionListener {
+public class MainActivity extends BaseDrawerActivity
+{
+    private String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+
+        initOnCreate(toolbar, drawer, navigationView);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
 
         // Set the home as default
-        Fragment fragment = new MainFragment();
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.content, fragment)
-                .commit();
+        newFragment(new MainFragment());
+    }
+    private void newFragment(Fragment fragment){
+        try {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content, fragment)
+                    .commit();
+        }catch (Exception e){
+            Log.d(TAG, e.getMessage());
+        }
+    }
+    private void newDialog(DialogFragment dialogFragment, String tag){
+        try {
+            dialogFragment.show(MainActivity.this.getSupportFragmentManager(), tag);
+        }catch (Exception e){
+            Log.d(TAG, e.getMessage());
+        }
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
+        if (isDrawerOpen(R.id.drawer_layout)) {
+           closerDrawer(R.id.drawer_layout);
         } else {
             super.onBackPressed();
         }
@@ -78,64 +96,35 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        // Create a new fragment and specify the planet to show based on position
-        Fragment fragment;
-
-        if (id == R.id.nav_camera) {
-            // Handle the settings action
-            fragment = new CameraFragment();
-        } else {
-            // Anything else is home
-
-            if (id == R.id.nav_gallery) {
-                // Handle the settings action
-                fragment = new GalleryFragment();
-            } else {
-                // Anything else is home
-                if (id == R.id.nav_slideshow) {
-                    // Handle the settings action
-                    fragment = new SlideShowFragment();
-                } else {
-                    // Anything else is home
-                    if (id == R.id.nav_manage) {
-                        // Handle the settings action
-                        fragment = new ManageFragment();
-                    } else {
-                        // Anything else is home
-                        if (id == R.id.nav_share) {
-                            // Handle the settings action
-                            fragment = new ShareFragment();
-                        } else {
-                            // Anything else is home
-                            if (id == R.id.nav_send) {
-                                // Handle the settings action
-                                fragment = new SendFragment();
-                            } else {
-                                fragment = new ManageFragment();
-                            }
-                        }
-                    }
-                }
-            }
+        // Create new fragments here!
+        switch (id) {
+            case R.id.nav_camera:
+                newFragment(new CameraFragment());
+                break;
+            case R.id.nav_gallery:
+                newFragment(new GalleryFragment());
+                break;
+            case R.id.nav_slideshow:
+                newFragment(new SlideShowFragment());
+                break;
+            case R.id.nav_manage:
+                newFragment(new ManageFragment());
+                break;
+            case R.id.nav_share:
+                newDialog(new ShareDialogFragment(), "shareDialog");
+                break;
+            case R.id.nav_send:
+                newDialog(new SendDialogFragment(), "sendDialog");
+                break;
+            default:
+                newFragment(new MainFragment());
+                break;
         }
 
-        // Insert the fragment by replacing any existing fragment
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.content, fragment)
-                .commit();
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+        closerDrawer(R.id.drawer_layout);
         return true;
-    }
-
-    @Override
-    public void onFragmentInteraction(Uri uri) {
-
     }
 }

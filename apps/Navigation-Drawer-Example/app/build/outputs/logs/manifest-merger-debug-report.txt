@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mille\.android\build-cache\f49a6fd668ca50f2fedf1034fbd8a214be6c5d08\output\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:17:1-31:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.mcs.navigationdrawerexample.activities.MainActivity
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:12:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mille\.android\build-cache\f49a6fd668ca50f2fedf1034fbd8a214be6c5d08\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mille\.android\build-cache\f49a6fd668ca50f2fedf1034fbd8a214be6c5d08\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:21:5-23:58
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+		INJECTED from A:\Projects\Github\Samples\apps\Navigation-Drawer-Example\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mille\.android\build-cache\b5ecc3ca478abcd31467ab886f420196ab330685\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\19b0ca5b3a56d5e870a8f51c21b11d07d8fe348b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mille\.android\build-cache\af3f0c9a774e05ab7d7c0e3e55403561c5a5b02e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mille\.android\build-cache\f49a6fd668ca50f2fedf1034fbd8a214be6c5d08\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mille\.android\build-cache\f49a6fd668ca50f2fedf1034fbd8a214be6c5d08\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mille\.android\build-cache\2b899397692743519a482d6c93802c608447e530\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mille\.android\build-cache\66815f1531f6d4d714525dcce97f48d298a32f89\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mille\.android\build-cache\7cc5d216e0fe281e362113824aa8d8190dd0c623\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mille\.android\build-cache\a048d69992f5669b73d5ae5fc609dfc25c8520ce\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mille\.android\build-cache\f960b7f130b766047407a420cd79ce8775f13a72\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mille\.android\build-cache\6bf64b17651249f670f797b5c1632e59919c037e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mille\.android\build-cache\df9107ef5892dd97c9ee87ea47370bef7bde84ef\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mille\.android\build-cache\c07d867f1a7cccc6531de48db0c1ccb614d6472f\output\AndroidManifest.xml:26:9-47
