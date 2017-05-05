@@ -42,7 +42,7 @@ public class MainActivity extends BaseDrawerActivity
             }
         });
 
-        // Set the home as default
+        // Set the main as default
         newFragment(new MainFragment());
     }
     private void newFragment(Fragment fragment){
@@ -65,8 +65,8 @@ public class MainActivity extends BaseDrawerActivity
 
     @Override
     public void onBackPressed() {
-        if (isDrawerOpen(R.id.drawer_layout)) {
-           closerDrawer(R.id.drawer_layout);
+        if (isDrawerOpen()) {
+           closerDrawer();
         } else {
             super.onBackPressed();
         }
@@ -124,7 +124,7 @@ public class MainActivity extends BaseDrawerActivity
                 break;
         }
 
-        closerDrawer(R.id.drawer_layout);
+        closerDrawer();
         return true;
     }
 }

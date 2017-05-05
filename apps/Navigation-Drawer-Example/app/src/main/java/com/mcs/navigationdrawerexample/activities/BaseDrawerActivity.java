@@ -18,8 +18,16 @@ public class BaseDrawerActivity extends AppCompatActivity
 {
     private String TAG = "BaseDrawerActivity";
 
+    public Toolbar toolBar;
+    public DrawerLayout drawerLayout;
+    public NavigationView navView;
+
     public void initOnCreate(Toolbar toolbar, DrawerLayout drawer, NavigationView navigationView){
         try {
+            toolBar = toolbar;
+            drawerLayout = drawer;
+            navView = navigationView;
+
             setSupportActionBar(toolbar);
 
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -38,6 +46,10 @@ public class BaseDrawerActivity extends AppCompatActivity
             DrawerLayout drawer = (DrawerLayout) findViewById(drawerID);
             NavigationView navigationView = (NavigationView) findViewById(navigationViewID);
 
+            toolBar = toolbar;
+            drawerLayout = drawer;
+            navView = navigationView;
+
             setSupportActionBar(toolbar);
 
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -47,58 +59,62 @@ public class BaseDrawerActivity extends AppCompatActivity
 
             navigationView.setNavigationItemSelectedListener(this);
         }catch (Exception e){
-            Log.e(TAG,e.getMessage());
+            DEBUG(e.getMessage());
         }
     }
 
-    public void closerDrawer(DrawerLayout drawer){
+    public void closerDrawer(){
         try{
-            drawer.closeDrawer(GravityCompat.START);
+            getDrawerLayout().closeDrawer(GravityCompat.START);
         }catch (Exception e){
-            Log.e(TAG,e.getMessage());
-        }
-    }
-    public void closerDrawer(int drawerID){
-        try{
-            DrawerLayout drawer = (DrawerLayout) findViewById(drawerID);
-            drawer.closeDrawer(GravityCompat.START);
-        }catch (Exception e){
-            Log.e(TAG,e.getMessage());
+            DEBUG(e.getMessage());
         }
     }
 
-    public void openDrawer(DrawerLayout drawer){
+    public void openDrawer(){
         try {
-            drawer.openDrawer(GravityCompat.START);
+            getDrawerLayout().openDrawer(GravityCompat.START);
         }catch (Exception e){
-            Log.e(TAG,e.getMessage());
-        }
-    }
-    public void openDrawer(int drawerID){
-        try{
-            DrawerLayout drawer = (DrawerLayout) findViewById(drawerID);
-            drawer.openDrawer(GravityCompat.START);
-        }catch (Exception e){
-            Log.e(TAG,e.getMessage());
+            DEBUG(e.getMessage());
         }
     }
 
-    public boolean isDrawerOpen(int drawerID){
+    public boolean isDrawerOpen(){
         try{
-            DrawerLayout drawer = (DrawerLayout) findViewById(drawerID);
-            return drawer.isDrawerOpen(GravityCompat.START);
+            return getDrawerLayout().isDrawerOpen(GravityCompat.START);
         }catch (Exception e){
-            Log.e(TAG,e.getMessage());
+            DEBUG(e.getMessage());
             return false;
         }
     }
-    public boolean isDrawerOpen(DrawerLayout drawer){
+
+    public Toolbar getToolBar(){
         try{
-            return drawer.isDrawerOpen(GravityCompat.START);
+            return toolBar;
         }catch (Exception e){
-            Log.e(TAG,e.getMessage());
-            return false;
+            DEBUG(e.getMessage());
+            return null;
         }
+    }
+    public DrawerLayout getDrawerLayout(){
+        try{
+            return drawerLayout;
+        }catch (Exception e){
+            DEBUG(e.getMessage());
+            return null;
+        }
+    }
+    public NavigationView getNavView(){
+        try{
+            return navView;
+        }catch (Exception e){
+            DEBUG(e.getMessage());
+            return null;
+        }
+    }
+
+    private void DEBUG(String e){
+        Log.e(TAG, e);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
