@@ -6,4 +6,4 @@
 
 
 
-      audio Section: removed in favor of my easyUtils library which integrates it even better!
+audio Section: removed in favor of my easyUtils library which integrates it even better!
