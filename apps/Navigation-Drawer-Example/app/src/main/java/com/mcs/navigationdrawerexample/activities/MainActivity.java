@@ -66,7 +66,7 @@ public class MainActivity extends BaseDrawerActivity
     @Override
     public void onBackPressed() {
         if (isDrawerOpen()) {
-           closerDrawer();
+           closeDrawer();
         } else {
             super.onBackPressed();
         }
@@ -124,7 +124,7 @@ public class MainActivity extends BaseDrawerActivity
                 break;
         }
 
-        closerDrawer();
+        closeDrawer();
         return true;
     }
 }
