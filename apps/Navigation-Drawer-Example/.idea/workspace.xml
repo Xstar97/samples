@@ -33,40 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseDrawerActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mcs/navigationdrawerexample/activities/BaseDrawerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initOnCreate#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#initOnCreate#1;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#closerDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#openDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#isDrawerOpen#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#getToolBar#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#getDrawerLayout#0;class#BaseDrawerActivity#0" expanded="false" />
-                <element signature="method#getNavView#0;class#BaseDrawerActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mcs/navigationdrawerexample/activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1119">
-              <caret line="99" column="51" lean-forward="false" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#newFragment#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#newDialog#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -1936,6 +1902,50 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navigationdrawerexample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Navigation-Drawer-Example" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navigationdrawerexample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Navigation-Drawer-Example" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2684,24 +2694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mcs/navigationdrawerexample/activities/BaseDrawerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initOnCreate#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#initOnCreate#1;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#closerDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#openDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#isDrawerOpen#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#getToolBar#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#getDrawerLayout#0;class#BaseDrawerActivity#0" expanded="false" />
-            <element signature="method#getNavView#0;class#BaseDrawerActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -2723,6 +2715,24 @@
             <element signature="imports" expanded="true" />
             <element signature="method#newFragment#0;class#MainActivity#0" expanded="false" />
             <element signature="method#newDialog#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mcs/navigationdrawerexample/activities/BaseDrawerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initOnCreate#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#initOnCreate#1;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#closerDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#openDrawer#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#isDrawerOpen#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#getToolBar#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#getDrawerLayout#0;class#BaseDrawerActivity#0" expanded="false" />
+            <element signature="method#getNavView#0;class#BaseDrawerActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
