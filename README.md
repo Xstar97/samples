@@ -5,5 +5,5 @@
 - The example also includes fragments and method to change the fragments easily...
 
 
-# audio Section: 
-removed in favor of my easyUtils library which integrates it even better!
+
+      audio Section: removed in favor of my easyUtils library which integrates it even better!
