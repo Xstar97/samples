@@ -26,12 +26,12 @@ then in onCreate we add the following:
 
     //R.id.blabla compatible
 
-    initOnCreateR.id.toolbar,R.id.drawer, R.id.navigatioView);
+    initOnCreate(R.id.toolbar, R.id.drawer, R.id.navigationView);
 
 what does that do?
 well...its basically this:
 
-the single line of code sets up the support actionBar, ActionBarDrawerToggle, and finally the navigationItemListener
+the single line of code sets up the support actionBar, ActionBarDrawerToggle, and finally the navigationItemListener...
 
     setSupportActionBar(toolbar);
 
@@ -42,11 +42,17 @@ the single line of code sets up the support actionBar, ActionBarDrawerToggle, an
 
     navigationView.setNavigationItemSelectedListener(this);
 
-you also have access to following public methods too:
+The following are a few public methods that have been added.
 
-1. void closerDrawer
-2. void openDrawer
-3. boolean isDrawerOpen
+    1. void: closerDrawer();
+    2. void: openDrawer();
+    3. boolean: isDrawerOpen();
+    
+Public methods to return the views
+    
+    1. toolbar: getToolBar();
+    2. drawerLayout: getDrawerLayout();
+    3. navigationView: getNavView();
 
 please checkout this sample project to see how everything is fully implemented!
 
