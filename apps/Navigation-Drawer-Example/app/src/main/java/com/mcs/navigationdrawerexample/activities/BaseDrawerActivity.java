@@ -63,7 +63,7 @@ public class BaseDrawerActivity extends AppCompatActivity
         }
     }
 
-    public void closerDrawer(){
+    public void closeDrawer(){
         try{
             getDrawerLayout().closeDrawer(GravityCompat.START);
         }catch (Exception e){
