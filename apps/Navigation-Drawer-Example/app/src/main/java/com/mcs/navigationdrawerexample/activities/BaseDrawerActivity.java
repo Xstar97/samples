@@ -28,8 +28,6 @@ public class BaseDrawerActivity extends AppCompatActivity
             drawerLayout = drawer;
             navView = navigationView;
 
-            setSupportActionBar(toolbar);
-
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                     this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
             drawer.addDrawerListener(toggle);
@@ -49,8 +47,6 @@ public class BaseDrawerActivity extends AppCompatActivity
             toolBar = toolbar;
             drawerLayout = drawer;
             navView = navigationView;
-
-            setSupportActionBar(toolbar);
 
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                     this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -86,6 +82,10 @@ public class BaseDrawerActivity extends AppCompatActivity
             DEBUG(e.getMessage());
             return false;
         }
+    }
+
+    public void setSelectedMenu(int setMenuID){
+        getNavView().getMenu().performIdentifierAction(setMenuID, 0);
     }
 
     public Toolbar getToolBar(){

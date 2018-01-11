@@ -6,7 +6,6 @@ import android.support.design.widget.NavigationView;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.DialogFragment;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.widget.Toolbar;
@@ -27,13 +26,15 @@ public class MainActivity extends BaseDrawerActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+
+        setSupportActionBar(toolbar);
 
         initOnCreate(toolbar, drawer, navigationView);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,10 +44,17 @@ public class MainActivity extends BaseDrawerActivity
         });
 
         // Set the main as default
-        newFragment(new MainFragment());
+        newFragment(R.layout.fragment_main);
     }
-    private void newFragment(Fragment fragment){
+
+    private void newFragment(int layout){
         try {
+            Bundle bundle = new Bundle();
+            bundle.putInt("layout", layout);
+
+            UniversalFragment fragment = new UniversalFragment();
+            fragment.setArguments(bundle);
+
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction()
                     .replace(R.id.content, fragment)
@@ -102,16 +110,16 @@ public class MainActivity extends BaseDrawerActivity
         // Create new fragments here!
         switch (id) {
             case R.id.nav_camera:
-                newFragment(new CameraFragment());
+                newFragment(R.layout.fragment_camera);
                 break;
             case R.id.nav_gallery:
-                newFragment(new GalleryFragment());
+                newFragment(R.layout.fragment_gallery);
                 break;
             case R.id.nav_slideshow:
-                newFragment(new SlideShowFragment());
+                newFragment(R.layout.fragment_slideshow);
                 break;
             case R.id.nav_manage:
-                newFragment(new ManageFragment());
+                newFragment(R.layout.fragment_manage);
                 break;
             case R.id.nav_share:
                 newDialog(new ShareDialogFragment(), "shareDialog");
@@ -120,7 +128,7 @@ public class MainActivity extends BaseDrawerActivity
                 newDialog(new SendDialogFragment(), "sendDialog");
                 break;
             default:
-                newFragment(new MainFragment());
+                newFragment(R.layout.fragment_main);
                 break;
         }
 
