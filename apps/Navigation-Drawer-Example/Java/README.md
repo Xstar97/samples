@@ -31,22 +31,30 @@ then in onCreate we add the following:
 what does that do?
 well...its basically this:
 
-the single line of code sets up the support actionBar, ActionBarDrawerToggle, and finally the navigationItemListener...
-
-    setSupportActionBar(toolbar);
+the single line of code sets up everything needed for your drawerlayout...
 
     ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
     this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
     drawer.addDrawerListener(toggle);
     toggle.syncState();
-
     navigationView.setNavigationItemSelectedListener(this);
 
 The following are a few public methods that have been added.
 
     1. void: closerDrawer();
+    - closes drawer if open
     2. void: openDrawer();
+    - opens drawer if closed
     3. boolean: isDrawerOpen();
+    - is the drawer open?
+    4. void: setSelectedMenu(int menu id);
+    - selects the menu via menu id(highlights and sets off action!)
+    5. void: unSelectMenuItem(int i);
+    - unhighlights the menu of a single item(not menu id compatible :()
+    6. int: unSelectMenuItem();
+    - un selects the entire menu...ie from 0 to 'infinity'
+    7. int: getMenuSize();
+    - returns length of menu
     
 Public methods to return the views
     
