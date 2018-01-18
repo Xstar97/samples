@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\970f730dcaac57c4f7afc76fbe7c8e5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\6c0a98b1ffdd06f80d89f4b67d50c87e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c26b7da720a9f8421e42d735cfcd529a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\39d5ba46cd76470d745e98993da1dc56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\70fd912c823b000be82977915e81712d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\06b94e32604f7b0a40e765c8e67884e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\394c16ce780b0de7a6ac5b1e25fd4160\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\ecf5dc34f6e35acc02eeb18c481142cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\ea92574b7a459ef990b6d69326a3a58c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\97489e6dd9a2b33a5213338f417bad66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b342bbf868d7df63ab468fcd63b71379\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f14a8f2e3a219fe026f9cbd3793564a1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\23087c907c3594560352d7a46023b031\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:5:5-21:19
+	android:supportsRtl
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.mcs.navigationdrawerexample.activities.MainActivity
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:12:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\970f730dcaac57c4f7afc76fbe7c8e5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\970f730dcaac57c4f7afc76fbe7c8e5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\6c0a98b1ffdd06f80d89f4b67d50c87e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\6c0a98b1ffdd06f80d89f4b67d50c87e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c26b7da720a9f8421e42d735cfcd529a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c26b7da720a9f8421e42d735cfcd529a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\39d5ba46cd76470d745e98993da1dc56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\39d5ba46cd76470d745e98993da1dc56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\70fd912c823b000be82977915e81712d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\70fd912c823b000be82977915e81712d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\06b94e32604f7b0a40e765c8e67884e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\06b94e32604f7b0a40e765c8e67884e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\394c16ce780b0de7a6ac5b1e25fd4160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\394c16ce780b0de7a6ac5b1e25fd4160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\ecf5dc34f6e35acc02eeb18c481142cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\ecf5dc34f6e35acc02eeb18c481142cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\ea92574b7a459ef990b6d69326a3a58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\ea92574b7a459ef990b6d69326a3a58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\97489e6dd9a2b33a5213338f417bad66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\97489e6dd9a2b33a5213338f417bad66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b342bbf868d7df63ab468fcd63b71379\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b342bbf868d7df63ab468fcd63b71379\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f14a8f2e3a219fe026f9cbd3793564a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f14a8f2e3a219fe026f9cbd3793564a1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\23087c907c3594560352d7a46023b031\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\mille\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\23087c907c3594560352d7a46023b031\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		ADDED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mille\projects\AndroidStudioProjects\Apps\github\samples\apps\Navigation-Drawer-Example\Java\app\src\main\AndroidManifest.xml

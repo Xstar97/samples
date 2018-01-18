@@ -1,4 +1,0 @@
-#Wed Jan 10 23:38:57 EST 2018
-base.0=D\:\\mille\\projects\\AndroidStudioProjects\\Java\\github\\samples\\apps\\Navigation-Drawer-Example\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
-path.0=classes.dex
-renamed.0=classes.dex
